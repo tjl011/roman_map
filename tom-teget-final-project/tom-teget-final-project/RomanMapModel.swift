@@ -52,10 +52,11 @@ class RomanMapModel {
         }
     }
     
+    /// Name of resource file (i.e. plist file) that contains the map data
     var mapInfoName: String?
     
     /**
-        Constructor for RomanMapModel
+        Constructor for RomanMapModel.
         
         :param: mapInfoName name of resource file that contains the base Roman Map overlay.
     
@@ -75,14 +76,14 @@ class RomanMapModel {
         overlayBottomLeftCoord = RomanMapModel.generateBoundaryCoordinates(mapProperties!, overlayCoordKey: "overlayBottomLeftCoord")!
     
        
-        let boundaryPointsArray = mapProperties!["boundary"] as NSArray
+        let boundaryPointsArray = mapProperties!["boundary"] as! NSArray
         
         self.mapBoundaryCount = boundaryPointsArray.count
         self.mapBoundary = []
         
         // populate map boundary with resource file for map
         for boundaryPoint in boundaryPointsArray {
-            let point = CGPointFromString(boundaryPoint as String)
+            let point = CGPointFromString(boundaryPoint as! String)
             self.mapBoundary += [CLLocationCoordinate2DMake(CLLocationDegrees(point.x),
                 CLLocationDegrees(point.y))]
         }
@@ -104,7 +105,7 @@ class RomanMapModel {
             return nil
         }
         else {
-            let overlayPoint = CGPointFromString(mapProperties[overlayCoordKey] as String)
+            let overlayPoint = CGPointFromString(mapProperties[overlayCoordKey] as! String)
             
             return CLLocationCoordinate2DMake(CLLocationDegrees(overlayPoint.x),
                     CLLocationDegrees(overlayPoint.y))
