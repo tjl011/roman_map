@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		291AEF9C1AE1463300418BFA /* missing.png in Resources */ = {isa = PBXBuildFile; fileRef = 291AEF9B1AE1463300418BFA /* missing.png */; };
+		9435F7CD1AE7FC6E0028C8D0 /* italia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9435F7CC1AE7FC6E0028C8D0 /* italia.plist */; };
 		94529E171AE75CC200D31915 /* Britannica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94529E161AE75CC200D31915 /* Britannica.plist */; };
 		94529E191AE7660400D31915 /* RomanProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94529E181AE7660400D31915 /* RomanProvinceModel.swift */; };
 		94529E1B1AE78CEA00D31915 /* dacia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94529E1A1AE78CEA00D31915 /* dacia.plist */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		291AEF9B1AE1463300418BFA /* missing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing.png; sourceTree = "<group>"; };
+		9435F7CC1AE7FC6E0028C8D0 /* italia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = italia.plist; sourceTree = "<group>"; };
 		94529E161AE75CC200D31915 /* Britannica.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Britannica.plist; sourceTree = "<group>"; };
 		94529E181AE7660400D31915 /* RomanProvinceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanProvinceModel.swift; sourceTree = "<group>"; };
 		94529E1A1AE78CEA00D31915 /* dacia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = dacia.plist; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		E3D876611AE11A2500CF2A3A /* Roman Map Data */ = {
 			isa = PBXGroup;
 			children = (
+				9435F7CC1AE7FC6E0028C8D0 /* italia.plist */,
 				94529E1A1AE78CEA00D31915 /* dacia.plist */,
 				94529E161AE75CC200D31915 /* Britannica.plist */,
 				291AEF9B1AE1463300418BFA /* missing.png */,
@@ -244,6 +247,7 @@
 			files = (
 				291AEF9C1AE1463300418BFA /* missing.png in Resources */,
 				94529E171AE75CC200D31915 /* Britannica.plist in Resources */,
+				9435F7CD1AE7FC6E0028C8D0 /* italia.plist in Resources */,
 				E3D8763F1AE0DE4700CF2A3A /* Main.storyboard in Resources */,
 				E3D876441AE0DE4700CF2A3A /* LaunchScreen.xib in Resources */,
 				E3D8765F1AE1037700CF2A3A /* baseRomanMap.plist in Resources */,

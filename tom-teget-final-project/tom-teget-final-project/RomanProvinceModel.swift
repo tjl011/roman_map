@@ -46,8 +46,8 @@ class RomanProvinceModel {
         let boundaryPoints = provinceProperties!["coordinates"] as! NSArray
         for boundaryPoint in boundaryPoints {
             let point = CGPointFromString(boundaryPoint as! String)
-            let coordinate2D = CLLocationCoordinate2DMake(CLLocationDegrees(point.x),
-                CLLocationDegrees(point.y))
+            let coordinate2D = CLLocationCoordinate2DMake(CLLocationDegrees(point.y),
+                CLLocationDegrees(point.x))
                 
             self.provinceBoundary.append(coordinate2D)
         }

@@ -17,8 +17,11 @@ class ViewController: UIViewController {
     /// Base Roman Empire model object
     var baseRomanMap = RomanMapModel(mapInfoName: "baseRomanMap")
     
-    /// Provincial model object - Britannia
-    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "dacia")
+    /// Provincial model object - Dacia
+    var daciaModel = RomanProvinceModel(provinceInfoFileName: "dacia")
+    
+    /// Provincial model object - Italia
+    var italiaModel = RomanProvinceModel(provinceInfoFileName: "italia")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +32,8 @@ class ViewController: UIViewController {
         println("Base map loaded")
         
         baseMapView.delegate = self
-        addBritannicaOverlay()
+        addDaciaOverlay()
+        addItaliaOverlay()
         //addRomanMapOverlay()
     }
     
@@ -52,31 +56,49 @@ class ViewController: UIViewController {
         This method adds a polygon-overlay of the province Britannica. It is a test. 
         In the future, we will add all the provincial boundaries.
     */
-    func addBritannicaOverlay() {
-        println(NSString(format: "Adding Britannica overlay: %d", BritannicaModel.provinceBoundary.count))
+    func addDaciaOverlay() {
+        println(NSString(format: "Adding Dacia overlay: %d", daciaModel.provinceBoundary.count))
         
         var mapPointArray: [MKMapPoint]
         mapPointArray = []
-        for coord2D in BritannicaModel.provinceBoundary {
+        for coord2D in daciaModel.provinceBoundary {
             let mapPoint = MKMapPointForCoordinate(coord2D)
             mapPointArray += [mapPoint]
         }
         let provincePolygon = MKPolygon(points: &mapPointArray, count: mapPointArray.count)
       //  let provincePolygon = MKPolygon(coordinates: &BritannicaModel.provinceBoundary, count: BritannicaModel.provinceBoundary.count)
-        provincePolygon.title = "Britannia"
-        provincePolygon.subtitle = "Province of Britannia"
+        provincePolygon.title = "Dacia"
+        provincePolygon.subtitle = "Province of Dacia"
         baseMapView.addOverlay(provincePolygon)
+    }
+    
+    /**
+        Test method used to generate overlay for the province of Italia
+    */
+    func addItaliaOverlay() {
+        println(NSString(format: "Adding Italia overlay: %d", italiaModel.provinceBoundary.count))
+        
+        var mapPointArray: [MKMapPoint]
+        mapPointArray = []
+        for coord2D in italiaModel.provinceBoundary {
+            let mapPoint = MKMapPointForCoordinate(coord2D)
+            mapPointArray += [mapPoint]
+        }
+        let provincePolygon = MKPolygon(points: &mapPointArray, count: mapPointArray.count)
+        provincePolygon.title = "Italia"
+        provincePolygon.subtitle = "Province of Italia"
+        baseMapView.addOverlay(provincePolygon)
+
     }
     
     func loadSelectedOptions() {
         // TODO - implement a way for the user to make selections
 
     }
-
-
 }
 
-// Mark: - Map View delegate 
+
+// Mark: - Map View delegate
 
 extension ViewController: MKMapViewDelegate {
     
@@ -97,7 +119,7 @@ extension ViewController: MKMapViewDelegate {
             println("province delegate adding overlay")
            
             var provinceRenderer = MKPolygonRenderer(overlay: overlay)
-            provinceRenderer!.fillColor = UIColor.greenColor()
+            //provinceRenderer!.fillColor = UIColor.greenColor()
             provinceRenderer!.strokeColor = UIColor.greenColor()
             provinceRenderer!.lineWidth = 1.5
             
