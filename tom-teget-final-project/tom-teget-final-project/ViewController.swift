@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var baseRomanMap = RomanMapModel(mapInfoName: "baseRomanMap")
     
     /// Provincial model object - Britannia
-    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "dacia_v2")
+    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "dacia")
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -21,6 +21,9 @@ class RomanProvinceModel {
     /// Array of CLLocationCoordinate2D structs that contain the province boundary
     var provinceBoundary: [CLLocationCoordinate2D]
     
+    /// Array of map points parsed from plist file
+    var mapPointArray: [MKMapPoint]
+    
     // TODO: Add class variables regarding Province information
     
     
@@ -39,6 +42,7 @@ class RomanProvinceModel {
         self.provinceName = provinceProperties!["province"] as? String
         
         self.provinceBoundary = []
+        self.mapPointArray = []
         let boundaryPoints = provinceProperties!["coordinates"] as! NSArray
         for boundaryPoint in boundaryPoints {
             let point = CGPointFromString(boundaryPoint as! String)
