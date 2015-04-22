@@ -1,0 +1,39 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Germania Superior</string>
+	<key>coordinates</key>
+	<array>
+		<string>{9.558015,48.608775}</string>
+		<string>{9.594649,48.655502}</string>
+		<string>{9.487787,48.767451}</string>
+		<string>{9.564987,48.900617}</string>
+		<string>{9.511707,48.987656}</string>
+		<string>{9.439089,49.090604}</string>
+		<string>{9.375306,49.256193}</string>
+		<string>{9.320130,49.485194}</string>
+		<string>{9.233558,49.815738}</string>
+		<string>{9.219864,50.118078}</string>
+		<string>{9.111748,50.330407}</string>
+		<string>{8.997396,50.514432}</string>
+		<string>{8.840059,50.615532}</string>
+		<string>{8.743721,50.540660}</string>
+		<string>{8.478216,50.351877}</string>
+		<string>{8.338207,50.337631}</string>
+		<string>{7.947686,50.382891}</string>
+		<string>{7.623805,50.443675}</string>
+		<string>{7.274395,50.113971}</string>
+		<string>{7.302163,49.827965}</string>
+		<string>{7.316335,49.514583}</string>
+		<string>{7.343540,48.982758}</string>
+		<string>{7.258623,48.598274}</string>
+		<string>{7.197979,48.318142}</string>
+		<string>{7.228414,48.241762}</string>
+		<string>{7.533703,48.039827}</string>
+		<string>{8.162796,48.050073}</string>
+		<string>{8.580493,47.881944}</string>
+		<string>{9.558015,48.608775}</string>
+	</array>
+</dict>
+</plist>

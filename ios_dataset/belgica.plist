@@ -1,0 +1,53 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Belgica</string>
+	<key>coordinates</key>
+	<array>
+		<string>{0.936189,49.830017}</string>
+		<string>{1.194890,49.515722}</string>
+		<string>{1.133009,49.243204}</string>
+		<string>{2.193263,48.803762}</string>
+		<string>{2.410739,48.536317}</string>
+		<string>{2.930484,48.335643}</string>
+		<string>{3.659275,48.468774}</string>
+		<string>{4.433271,47.967531}</string>
+		<string>{4.734589,47.058613}</string>
+		<string>{5.084405,46.804564}</string>
+		<string>{5.118927,46.499014}</string>
+		<string>{5.844801,46.487034}</string>
+		<string>{6.494345,46.799048}</string>
+		<string>{6.666185,47.102404}</string>
+		<string>{6.863714,47.226184}</string>
+		<string>{7.213395,47.355073}</string>
+		<string>{7.939747,47.571798}</string>
+		<string>{8.496084,47.692086}</string>
+		<string>{8.610612,47.718981}</string>
+		<string>{8.634392,47.816403}</string>
+		<string>{8.193874,48.007515}</string>
+		<string>{7.501356,48.022114}</string>
+		<string>{7.393844,48.100568}</string>
+		<string>{7.316925,48.149144}</string>
+		<string>{7.230814,48.201895}</string>
+		<string>{7.170318,48.321177}</string>
+		<string>{7.292027,49.004192}</string>
+		<string>{7.249968,49.667200}</string>
+		<string>{7.222581,50.071502}</string>
+		<string>{5.167789,49.988886}</string>
+		<string>{4.767662,50.152525}</string>
+		<string>{4.387813,50.195599}</string>
+		<string>{4.103278,50.606287}</string>
+		<string>{4.108929,51.263012}</string>
+		<string>{4.111051,51.309367}</string>
+		<string>{3.495285,51.353154}</string>
+		<string>{3.279287,51.406790}</string>
+		<string>{2.549938,51.115546}</string>
+		<string>{1.874802,51.033972}</string>
+		<string>{1.429774,50.876105}</string>
+		<string>{1.498986,50.547979}</string>
+		<string>{1.318855,50.187259}</string>
+		<string>{0.936189,49.830017}</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Alpes Cottidae</string>
+	<key>coordinates</key>
+	<array>
+		<string>{5.602965,45.376141}</string>
+		<string>{5.519866,45.054933}</string>
+		<string>{5.700398,44.676937}</string>
+		<string>{5.818549,44.529782}</string>
+		<string>{5.875128,44.505410}</string>
+		<string>{6.543400,44.529335}</string>
+		<string>{6.711995,44.626951}</string>
+		<string>{6.633589,44.969759}</string>
+		<string>{6.308193,45.454712}</string>
+		<string>{6.115388,45.316877}</string>
+		<string>{5.602965,45.376141}</string>
+	</array>
+</dict>
+</plist>

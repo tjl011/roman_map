@@ -1,0 +1,49 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Mauretania Tingitana</string>
+	<key>coordinates</key>
+	<array>
+		<string>{-5.951072,35.917422}</string>
+		<string>{-6.285492,35.032496}</string>
+		<string>{-6.815760,34.182444}</string>
+		<string>{-7.315528,33.796571}</string>
+		<string>{-8.603993,33.286282}</string>
+		<string>{-8.848896,32.963275}</string>
+		<string>{-9.255877,32.664237}</string>
+		<string>{-9.338941,32.527021}</string>
+		<string>{-9.285255,32.193577}</string>
+		<string>{-9.044307,32.127122}</string>
+		<string>{-8.216395,32.324548}</string>
+		<string>{-7.901091,32.555239}</string>
+		<string>{-7.032587,32.770525}</string>
+		<string>{-6.553825,32.971126}</string>
+		<string>{-6.051766,33.007871}</string>
+		<string>{-5.210361,33.111395}</string>
+		<string>{-4.006071,33.262485}</string>
+		<string>{-2.663111,33.451139}</string>
+		<string>{-2.604559,34.510641}</string>
+		<string>{-2.177701,35.019247}</string>
+		<string>{-2.101898,35.138761}</string>
+		<string>{-2.404137,35.215749}</string>
+		<string>{-2.567381,35.124518}</string>
+		<string>{-2.746559,35.191137}</string>
+		<string>{-2.899404,35.368791}</string>
+		<string>{-2.940892,35.487210}</string>
+		<string>{-3.117925,35.317503}</string>
+		<string>{-3.346731,35.238130}</string>
+		<string>{-3.537210,35.281292}</string>
+		<string>{-3.753825,35.317149}</string>
+		<string>{-3.815370,35.253061}</string>
+		<string>{-3.961010,35.320492}</string>
+		<string>{-4.147598,35.242833}</string>
+		<string>{-4.396211,35.193253}</string>
+		<string>{-4.794207,35.325891}</string>
+		<string>{-5.177752,35.618204}</string>
+		<string>{-5.273321,35.760541}</string>
+		<string>{-5.191592,36.004535}</string>
+		<string>{-5.951072,35.917422}</string>
+	</array>
+</dict>
+</plist>
