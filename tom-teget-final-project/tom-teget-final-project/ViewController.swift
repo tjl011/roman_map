@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         let romanMapRegion = MKCoordinateRegionMake(baseRomanMap.midCoord, mapSpan)
         baseMapView.region = romanMapRegion
         println("Base map loaded")
+        addRomanMapOverlay()
     }
     
     override func didReceiveMemoryWarning() {
@@ -35,11 +36,11 @@ class ViewController: UIViewController {
     /**
         Adds an overlay of the Roman Empire Image to the map view.
     */
-    /*func addRomanMapOverlay() {
+    func addRomanMapOverlay() {
         println("adding overlay")
         let overlay = RomanMapOverlay(romeMap: baseRomanMap)
         baseMapView.addOverlay(overlay)
-    } */
+    }
     
     func loadSelectedOptions() {
         // TODO - implement a way for the user to make selections
@@ -56,17 +57,17 @@ extension ViewController: MKMapViewDelegate {
     /** 
         Adds Roman Empire overlay to mapView 
     */
-    /*func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
+    func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
         
         if overlay is RomanMapOverlay {
             println("mapview delegate adding overlay")
-            let romanMapImage = UIImage(contentsOfFile: "missing")
+            let romanMapImage = UIImage(named: "roman_map_117AD")
             
             let overlayMapView = RomanMapOverlayView(overlay: overlay, overlayImage: romanMapImage!)
             
             return overlayMapView
         }
         return nil
-    } */
+    }
     
 }
