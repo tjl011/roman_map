@@ -52,10 +52,11 @@ class RomanMapModel {
         }
     }
     
+    /// Name of resource file (i.e. plist file) that contains the map data
     var mapInfoName: String?
     
     /**
-        Constructor for RomanMapModel
+        Constructor for RomanMapModel.
         
         :param: mapInfoName name of resource file that contains the base Roman Map overlay.
     

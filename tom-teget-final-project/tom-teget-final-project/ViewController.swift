@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        // TODO - remove this function later?
     }
     
     /**
@@ -40,6 +41,14 @@ class ViewController: UIViewController {
         println("adding overlay")
         let overlay = RomanMapOverlay(romeMap: baseRomanMap)
         baseMapView.addOverlay(overlay)
+    }
+    
+    /** 
+        This method adds a polygon-overlay of the province Britannica. It is a test. 
+        In the future, we will add all the provincial boundaries.
+    */
+    func addBritannicaBoundary() {
+        
     }
     
     func loadSelectedOptions() {
