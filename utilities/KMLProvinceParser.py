@@ -54,7 +54,16 @@ class KMLProvinceParser:
 			slist = [s for s in self.__coordList[i].split(',')]
 			self.__coordList[i] = (float(slist[0]), float(slist[1]))
 	
+	def getCoordList(self):
+		""" Getter method for object attribute __coordList.
+		"""
+		return self.__coordList
+	
 	def prettyPrint(self):
+		""" Debugging purposes only. This method prints out a formatted
+			representation of the latitude, longititude coordinates 
+			of each point parsed by BeautifulSoup.
+		"""
 		print("name: {:s}".format(self.name))
 		for ctup in self.__coordList:
 			print("x: {:f} y: {:f}".format(ctup[0], ctup[1]))
