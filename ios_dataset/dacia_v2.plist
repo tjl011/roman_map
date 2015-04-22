@@ -1,0 +1,11 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Dacia V2</string>
+	<key>coordinates</key>
+	<array>
+		<string>{24.794405,45.341077}</string>
+	</array>
+</dict>
+</plist>
