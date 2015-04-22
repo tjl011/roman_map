@@ -18,13 +18,11 @@ class RomanProvinceModel {
     /// Proper name of Province
     var provinceName: String?
     
-    /// Province boundaries (used to build MKPolygon object for province).
-    var polygonPoints: UnsafeMutablePointer<MKMapPoint>?
-    
-    /// Number of boundary points (count)
-    var polygonPointsCount: Int?
+    /// Array of CLLocationCoordinate2D structs that contain the province boundary
+    var provinceBoundary: [CLLocationCoordinate2D]
     
     // TODO: Add class variables regarding Province information
+    
     
     /**
         Constructor for RomanProvinceModel. This object is a container for the provinces, used to 
@@ -38,8 +36,18 @@ class RomanProvinceModel {
         let resourceFilePath = NSBundle.mainBundle().pathForResource(self.provinceInfoFileName!, ofType: "plist")
         let provinceProperties = NSDictionary(contentsOfFile: resourceFilePath!)
         
-        //self.provinceName = provinceProperties["province"] as
+        self.provinceName = provinceProperties!["province"] as? String
+        
+        self.provinceBoundary = []
+        let boundaryPoints = provinceProperties!["coordinates"] as! NSArray
+        for boundaryPoint in boundaryPoints {
+            let point = CGPointFromString(boundaryPoint as! String)
+            let coordinate2D = CLLocationCoordinate2DMake(CLLocationDegrees(point.x),
+                CLLocationDegrees(point.y))
+                
+            self.provinceBoundary.append(coordinate2D)
+        }
     }
     
-    
+    // TODO: Add method to generate MKMapPoint coordinates?
 }

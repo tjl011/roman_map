@@ -17,14 +17,19 @@ class ViewController: UIViewController {
     /// Base Roman Empire model object
     var baseRomanMap = RomanMapModel(mapInfoName: "baseRomanMap")
     
+    /// Provincial model object - Britannia
+    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "Britannica")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        println("Getting map span")
         let mapSpan = baseRomanMap.getMapSpan()
         let romanMapRegion = MKCoordinateRegionMake(baseRomanMap.midCoord, mapSpan)
         baseMapView.region = romanMapRegion
         println("Base map loaded")
+        
+        baseMapView.delegate = self
+        //addBritannicaOverlay()
         addRomanMapOverlay()
     }
     
@@ -47,8 +52,20 @@ class ViewController: UIViewController {
         This method adds a polygon-overlay of the province Britannica. It is a test. 
         In the future, we will add all the provincial boundaries.
     */
-    func addBritannicaBoundary() {
+    func addBritannicaOverlay() {
+        println(NSString(format: "Adding Britannica overlay: %d", BritannicaModel.provinceBoundary.count))
         
+        var mapPointArray: [MKMapPoint]
+        mapPointArray = []
+        for coord2D in BritannicaModel.provinceBoundary {
+            let mapPoint = MKMapPointForCoordinate(coord2D)
+            mapPointArray += [mapPoint]
+        }
+        //let provincePolygon = MKPolygon(points: &mapPointArray, count: mapPointArray.count)
+        let provincePolygon = MKPolygon(coordinates: &BritannicaModel.provinceBoundary, count: BritannicaModel.provinceBoundary.count)
+        provincePolygon.title = "Britannia"
+        provincePolygon.subtitle = "Province of Britannia"
+        baseMapView.addOverlay(provincePolygon)
     }
     
     func loadSelectedOptions() {
@@ -76,7 +93,28 @@ extension ViewController: MKMapViewDelegate {
             
             return overlayMapView
         }
+        else if overlay is MKPolygon {
+            println("province delegate adding overlay")
+           
+            var provinceRenderer = MKPolygonRenderer(overlay: overlay)
+            provinceRenderer!.fillColor = UIColor.greenColor()
+            provinceRenderer!.strokeColor = UIColor.greenColor()
+            provinceRenderer!.lineWidth = 1.5
+            
+            return provinceRenderer
+        }
         return nil
     }
     
+    /**
+        Adds overlay views to mapView.
+    */
+    func mapView(mapView: MKMapView!, viewForOverlay overlay: MKOverlay!) -> MKOverlayView! {
+        if overlay is MKPolygon {
+            println("Display overlay view")
+            var provinceView = MKPolygonView(overlay: overlay)
+            return provinceView!
+        }
+        return nil
+    }
 }

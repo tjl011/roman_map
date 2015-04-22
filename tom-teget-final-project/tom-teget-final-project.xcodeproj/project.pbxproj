@@ -113,9 +113,9 @@
 				E3D876381AE0DE4700CF2A3A /* tom_teget_final_project.xcdatamodeld */,
 				E3D876341AE0DE4700CF2A3A /* Supporting Files */,
 				E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */,
-				94529E181AE7660400D31915 /* RomanProvinceModel.swift */,
 				E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */,
 				E3D876681AE11CD900CF2A3A /* RomanMapOverlayView.swift */,
+				94529E181AE7660400D31915 /* RomanProvinceModel.swift */,
 			);
 			path = "tom-teget-final-project";
 			sourceTree = "<group>";
