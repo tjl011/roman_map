@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     /// Provincial model object - Italia
     var italiaModel = RomanProvinceModel(provinceInfoFileName: "italia")
     
+    /// Provincial model object - Lusitania
+    var lusitaniaModel = RomanProvinceModel(provinceInfoFileName: "lusitania")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -91,6 +94,10 @@ class ViewController: UIViewController {
 
     }
     
+    /**
+        Test method used to generate overlay for the province Lusitania
+    */
+    
     func loadSelectedOptions() {
         // TODO - implement a way for the user to make selections
 
@@ -130,6 +137,7 @@ extension ViewController: MKMapViewDelegate {
     
     /**
         Adds overlay views to mapView.
+        TODO - remove (pretty sure we don't need)
     */
     func mapView(mapView: MKMapView!, viewForOverlay overlay: MKOverlay!) -> MKOverlayView! {
         if overlay is MKPolygon {
@@ -139,4 +147,9 @@ extension ViewController: MKMapViewDelegate {
         }
         return nil
     }
+    
+    /**
+        Services user selection.
+    */
+  //  func mapView
 }
