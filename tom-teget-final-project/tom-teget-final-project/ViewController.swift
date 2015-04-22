@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var baseRomanMap = RomanMapModel(mapInfoName: "baseRomanMap")
     
     /// Provincial model object - Britannia
-    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "Britannica")
+    var BritannicaModel = RomanProvinceModel(provinceInfoFileName: "dacia_v2")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         println("Base map loaded")
         
         baseMapView.delegate = self
-        //addBritannicaOverlay()
-        addRomanMapOverlay()
+        addBritannicaOverlay()
+        //addRomanMapOverlay()
     }
     
     override func didReceiveMemoryWarning() {
@@ -61,8 +61,8 @@ class ViewController: UIViewController {
             let mapPoint = MKMapPointForCoordinate(coord2D)
             mapPointArray += [mapPoint]
         }
-        //let provincePolygon = MKPolygon(points: &mapPointArray, count: mapPointArray.count)
-        let provincePolygon = MKPolygon(coordinates: &BritannicaModel.provinceBoundary, count: BritannicaModel.provinceBoundary.count)
+        let provincePolygon = MKPolygon(points: &mapPointArray, count: mapPointArray.count)
+      //  let provincePolygon = MKPolygon(coordinates: &BritannicaModel.provinceBoundary, count: BritannicaModel.provinceBoundary.count)
         provincePolygon.title = "Britannia"
         provincePolygon.subtitle = "Province of Britannia"
         baseMapView.addOverlay(provincePolygon)
