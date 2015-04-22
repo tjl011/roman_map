@@ -13,5 +13,7 @@ Project Directory structure:
 
 	* dataset: Contains data used to generate the project. 
 		Generally speaking, this data is stored as .kml files (XML-based file that contains latitude, longitude coordinates for data points). As of right now, these KML files delineate each Roman province, but we have not found a good way to incorporate these 		files directly into our app. Instead, we use a python script to parse the KML files into .plist files, which our app can easily parse. 
-
+	* ios_dataset: Contains data used by our iOS app.
+		This folder contains the data from the dataset folder that has been manipulated by 
+		the programs in the utilities folder.
 	* utilities: Contains helper scripts that are not used directly by our application, but are used to generate data our app can use.
