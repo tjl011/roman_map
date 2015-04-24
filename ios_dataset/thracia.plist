@@ -5,32 +5,32 @@
 	<string>Thracia</string>
 	<key>coordinates</key>
 	<array>
-		<string>{23.396419,41.677197}</string>
-		<string>{23.420741,41.654628}</string>
-		<string>{23.503337,41.595562}</string>
-		<string>{23.551790,41.550404}</string>
-		<string>{23.587608,41.520519}</string>
-		<string>{23.633138,41.499269}</string>
-		<string>{23.667028,41.485316}</string>
-		<string>{23.713320,41.456100}</string>
-		<string>{23.760448,41.418907}</string>
-		<string>{23.785313,41.388361}</string>
-		<string>{23.811033,41.349848}</string>
-		<string>{23.843865,41.343836}</string>
-		<string>{25.104591,41.334944}</string>
-		<string>{26.388074,40.979294}</string>
-		<string>{27.391117,40.827719}</string>
-		<string>{27.313900,40.731401}</string>
-		<string>{27.274484,40.698835}</string>
-		<string>{28.790248,41.050827}</string>
-		<string>{27.769932,42.371812}</string>
-		<string>{27.457030,42.676088}</string>
-		<string>{24.616832,42.525007}</string>
-		<string>{24.401601,42.544647}</string>
-		<string>{24.228584,42.566326}</string>
-		<string>{24.058967,42.556489}</string>
-		<string>{23.885730,42.577657}</string>
-		<string>{23.396419,41.677197}</string>
+		<string>{41.677197,23.396419}</string>
+		<string>{41.654628,23.420741}</string>
+		<string>{41.595562,23.503337}</string>
+		<string>{41.550404,23.551790}</string>
+		<string>{41.520519,23.587608}</string>
+		<string>{41.499269,23.633138}</string>
+		<string>{41.485316,23.667028}</string>
+		<string>{41.456100,23.713320}</string>
+		<string>{41.418907,23.760448}</string>
+		<string>{41.388361,23.785313}</string>
+		<string>{41.349848,23.811033}</string>
+		<string>{41.343836,23.843865}</string>
+		<string>{41.334944,25.104591}</string>
+		<string>{40.979294,26.388074}</string>
+		<string>{40.827719,27.391117}</string>
+		<string>{40.731401,27.313900}</string>
+		<string>{40.698835,27.274484}</string>
+		<string>{41.050827,28.790248}</string>
+		<string>{42.371812,27.769932}</string>
+		<string>{42.676088,27.457030}</string>
+		<string>{42.525007,24.616832}</string>
+		<string>{42.544647,24.401601}</string>
+		<string>{42.566326,24.228584}</string>
+		<string>{42.556489,24.058967}</string>
+		<string>{42.577657,23.885730}</string>
+		<string>{41.677197,23.396419}</string>
 	</array>
 </dict>
 </plist>

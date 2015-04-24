@@ -5,34 +5,34 @@
 	<string>Germania Inferior</string>
 	<key>coordinates</key>
 	<array>
-		<string>{7.251136,50.511507}</string>
-		<string>{7.041579,50.694250}</string>
-		<string>{7.082956,50.970666}</string>
-		<string>{6.814519,51.147481}</string>
-		<string>{6.824294,51.152719}</string>
-		<string>{6.794173,51.159542}</string>
-		<string>{6.787580,51.174878}</string>
-		<string>{6.761583,51.234032}</string>
-		<string>{6.772050,51.345892}</string>
-		<string>{6.780626,51.430652}</string>
-		<string>{6.734962,51.495656}</string>
-		<string>{6.583117,51.596442}</string>
-		<string>{6.594696,51.670343}</string>
-		<string>{6.222974,51.827408}</string>
-		<string>{5.688047,52.142475}</string>
-		<string>{5.436555,52.032793}</string>
-		<string>{4.051547,52.024722}</string>
-		<string>{3.392809,51.451071}</string>
-		<string>{4.208028,51.339605}</string>
-		<string>{4.141050,50.718152}</string>
-		<string>{4.176935,50.615721}</string>
-		<string>{4.414125,50.212746}</string>
-		<string>{4.791072,50.206226}</string>
-		<string>{5.160231,50.031197}</string>
-		<string>{5.552042,50.059114}</string>
-		<string>{7.189392,50.126001}</string>
-		<string>{7.495337,50.429407}</string>
-		<string>{7.251136,50.511507}</string>
+		<string>{50.511507,7.251136}</string>
+		<string>{50.694250,7.041579}</string>
+		<string>{50.970666,7.082956}</string>
+		<string>{51.147481,6.814519}</string>
+		<string>{51.152719,6.824294}</string>
+		<string>{51.159542,6.794173}</string>
+		<string>{51.174878,6.787580}</string>
+		<string>{51.234032,6.761583}</string>
+		<string>{51.345892,6.772050}</string>
+		<string>{51.430652,6.780626}</string>
+		<string>{51.495656,6.734962}</string>
+		<string>{51.596442,6.583117}</string>
+		<string>{51.670343,6.594696}</string>
+		<string>{51.827408,6.222974}</string>
+		<string>{52.142475,5.688047}</string>
+		<string>{52.032793,5.436555}</string>
+		<string>{52.024722,4.051547}</string>
+		<string>{51.451071,3.392809}</string>
+		<string>{51.339605,4.208028}</string>
+		<string>{50.718152,4.141050}</string>
+		<string>{50.615721,4.176935}</string>
+		<string>{50.212746,4.414125}</string>
+		<string>{50.206226,4.791072}</string>
+		<string>{50.031197,5.160231}</string>
+		<string>{50.059114,5.552042}</string>
+		<string>{50.126001,7.189392}</string>
+		<string>{50.429407,7.495337}</string>
+		<string>{50.511507,7.251136}</string>
 	</array>
 </dict>
 </plist>

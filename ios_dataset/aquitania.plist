@@ -5,41 +5,41 @@
 	<string>Aquitania</string>
 	<key>coordinates</key>
 	<array>
-		<string>{1.382249,43.154575}</string>
-		<string>{1.251649,43.470217}</string>
-		<string>{0.903927,43.945421}</string>
-		<string>{0.669388,44.057688}</string>
-		<string>{0.609255,44.163802}</string>
-		<string>{0.701358,44.435579}</string>
-		<string>{0.801750,44.532084}</string>
-		<string>{1.139366,44.737691}</string>
-		<string>{1.837307,44.659458}</string>
-		<string>{2.330028,44.875340}</string>
-		<string>{3.040652,44.772029}</string>
-		<string>{3.431065,45.010054}</string>
-		<string>{2.959116,45.337089}</string>
-		<string>{2.689339,45.688390}</string>
-		<string>{2.262926,46.147889}</string>
-		<string>{2.054156,46.176086}</string>
-		<string>{1.994661,46.445860}</string>
-		<string>{2.086463,46.871397}</string>
-		<string>{1.579893,47.554104}</string>
-		<string>{0.304015,47.120611}</string>
-		<string>{-2.137607,46.724488}</string>
-		<string>{-1.607195,46.124181}</string>
-		<string>{-1.338467,45.867544}</string>
-		<string>{-1.270197,45.616451}</string>
-		<string>{-1.268211,45.109420}</string>
-		<string>{-1.335844,44.366219}</string>
-		<string>{-1.640289,43.473019}</string>
-		<string>{-1.791267,43.346460}</string>
-		<string>{-0.815852,42.940693}</string>
-		<string>{-0.570196,42.902598}</string>
-		<string>{0.200047,42.806514}</string>
-		<string>{1.006209,42.670092}</string>
-		<string>{1.146184,42.751118}</string>
-		<string>{1.433623,42.796365}</string>
-		<string>{1.382249,43.154575}</string>
+		<string>{43.154575,1.382249}</string>
+		<string>{43.470217,1.251649}</string>
+		<string>{43.945421,0.903927}</string>
+		<string>{44.057688,0.669388}</string>
+		<string>{44.163802,0.609255}</string>
+		<string>{44.435579,0.701358}</string>
+		<string>{44.532084,0.801750}</string>
+		<string>{44.737691,1.139366}</string>
+		<string>{44.659458,1.837307}</string>
+		<string>{44.875340,2.330028}</string>
+		<string>{44.772029,3.040652}</string>
+		<string>{45.010054,3.431065}</string>
+		<string>{45.337089,2.959116}</string>
+		<string>{45.688390,2.689339}</string>
+		<string>{46.147889,2.262926}</string>
+		<string>{46.176086,2.054156}</string>
+		<string>{46.445860,1.994661}</string>
+		<string>{46.871397,2.086463}</string>
+		<string>{47.554104,1.579893}</string>
+		<string>{47.120611,0.304015}</string>
+		<string>{46.724488,-2.137607}</string>
+		<string>{46.124181,-1.607195}</string>
+		<string>{45.867544,-1.338467}</string>
+		<string>{45.616451,-1.270197}</string>
+		<string>{45.109420,-1.268211}</string>
+		<string>{44.366219,-1.335844}</string>
+		<string>{43.473019,-1.640289}</string>
+		<string>{43.346460,-1.791267}</string>
+		<string>{42.940693,-0.815852}</string>
+		<string>{42.902598,-0.570196}</string>
+		<string>{42.806514,0.200047}</string>
+		<string>{42.670092,1.006209}</string>
+		<string>{42.751118,1.146184}</string>
+		<string>{42.796365,1.433623}</string>
+		<string>{43.154575,1.382249}</string>
 	</array>
 </dict>
 </plist>

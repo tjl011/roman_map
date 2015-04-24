@@ -5,7 +5,7 @@
 	<string>Dacia V2</string>
 	<key>coordinates</key>
 	<array>
-		<string>{24.794405,45.341077}</string>
+		<string>{45.341077,24.794405}</string>
 	</array>
 </dict>
 </plist>

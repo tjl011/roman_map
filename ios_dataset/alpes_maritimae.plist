@@ -5,24 +5,24 @@
 	<string>Alpes Maritimae</string>
 	<key>coordinates</key>
 	<array>
-		<string>{5.842211,44.465091}</string>
-		<string>{6.032757,44.117343}</string>
-		<string>{6.323633,43.899255}</string>
-		<string>{6.437809,43.559123}</string>
-		<string>{6.653994,43.372084}</string>
-		<string>{6.690124,43.348331}</string>
-		<string>{6.732411,43.342867}</string>
-		<string>{6.758827,43.399897}</string>
-		<string>{6.838886,43.398944}</string>
-		<string>{6.939371,43.425267}</string>
-		<string>{6.967793,43.477662}</string>
-		<string>{7.004257,43.524077}</string>
-		<string>{6.695665,43.999874}</string>
-		<string>{6.732507,44.536903}</string>
-		<string>{6.710234,44.581904}</string>
-		<string>{6.521950,44.510294}</string>
-		<string>{5.917525,44.489800}</string>
-		<string>{5.842211,44.465091}</string>
+		<string>{44.465091,5.842211}</string>
+		<string>{44.117343,6.032757}</string>
+		<string>{43.899255,6.323633}</string>
+		<string>{43.559123,6.437809}</string>
+		<string>{43.372084,6.653994}</string>
+		<string>{43.348331,6.690124}</string>
+		<string>{43.342867,6.732411}</string>
+		<string>{43.399897,6.758827}</string>
+		<string>{43.398944,6.838886}</string>
+		<string>{43.425267,6.939371}</string>
+		<string>{43.477662,6.967793}</string>
+		<string>{43.524077,7.004257}</string>
+		<string>{43.999874,6.695665}</string>
+		<string>{44.536903,6.732507}</string>
+		<string>{44.581904,6.710234}</string>
+		<string>{44.510294,6.521950}</string>
+		<string>{44.489800,5.917525}</string>
+		<string>{44.465091,5.842211}</string>
 	</array>
 </dict>
 </plist>
