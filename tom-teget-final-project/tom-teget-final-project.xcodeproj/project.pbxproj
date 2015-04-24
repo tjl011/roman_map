@@ -8,6 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		291AEF9C1AE1463300418BFA /* missing.png in Resources */ = {isa = PBXBuildFile; fileRef = 291AEF9B1AE1463300418BFA /* missing.png */; };
+		9412C4311AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */; };
+		9412C4321AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */; };
+		9412C44E1AEAA4A400490349 /* alpes_cottidae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4341AEAA4A400490349 /* alpes_cottidae.plist */; };
+		9412C44F1AEAA4A400490349 /* alpes_cottidae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4341AEAA4A400490349 /* alpes_cottidae.plist */; };
+		9412C4501AEAA4A400490349 /* alpes_maritimae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4351AEAA4A400490349 /* alpes_maritimae.plist */; };
+		9412C4511AEAA4A400490349 /* alpes_maritimae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4351AEAA4A400490349 /* alpes_maritimae.plist */; };
+		9412C4521AEAA4A400490349 /* alpes_poeniae .plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4361AEAA4A400490349 /* alpes_poeniae .plist */; };
+		9412C4531AEAA4A400490349 /* alpes_poeniae .plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4361AEAA4A400490349 /* alpes_poeniae .plist */; };
+		9412C4541AEAA4A400490349 /* aquitania.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4371AEAA4A400490349 /* aquitania.plist */; };
+		9412C4551AEAA4A400490349 /* aquitania.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4371AEAA4A400490349 /* aquitania.plist */; };
+		9412C4561AEAA4A400490349 /* baetica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4381AEAA4A400490349 /* baetica.plist */; };
+		9412C4571AEAA4A400490349 /* baetica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4381AEAA4A400490349 /* baetica.plist */; };
+		9412C4581AEAA4A400490349 /* belgica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4391AEAA4A400490349 /* belgica.plist */; };
+		9412C4591AEAA4A400490349 /* belgica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4391AEAA4A400490349 /* belgica.plist */; };
+		9412C45A1AEAA4A400490349 /* Britannica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43A1AEAA4A400490349 /* Britannica.plist */; };
+		9412C45B1AEAA4A400490349 /* Britannica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43A1AEAA4A400490349 /* Britannica.plist */; };
+		9412C45C1AEAA4A400490349 /* dacia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43B1AEAA4A400490349 /* dacia.plist */; };
+		9412C45D1AEAA4A400490349 /* dacia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43B1AEAA4A400490349 /* dacia.plist */; };
+		9412C45E1AEAA4A400490349 /* dalmatia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43C1AEAA4A400490349 /* dalmatia.plist */; };
+		9412C45F1AEAA4A400490349 /* dalmatia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43C1AEAA4A400490349 /* dalmatia.plist */; };
+		9412C4601AEAA4A400490349 /* germania_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43D1AEAA4A400490349 /* germania_inferior.plist */; };
+		9412C4611AEAA4A400490349 /* germania_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43D1AEAA4A400490349 /* germania_inferior.plist */; };
+		9412C4621AEAA4A400490349 /* germania_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43E1AEAA4A400490349 /* germania_superior.plist */; };
+		9412C4631AEAA4A400490349 /* germania_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43E1AEAA4A400490349 /* germania_superior.plist */; };
+		9412C4641AEAA4A400490349 /* italia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43F1AEAA4A400490349 /* italia.plist */; };
+		9412C4651AEAA4A400490349 /* italia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C43F1AEAA4A400490349 /* italia.plist */; };
+		9412C4661AEAA4A400490349 /* lugudunensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4401AEAA4A400490349 /* lugudunensis.plist */; };
+		9412C4671AEAA4A400490349 /* lugudunensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4401AEAA4A400490349 /* lugudunensis.plist */; };
+		9412C4681AEAA4A400490349 /* lusitania.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4411AEAA4A400490349 /* lusitania.plist */; };
+		9412C4691AEAA4A400490349 /* lusitania.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4411AEAA4A400490349 /* lusitania.plist */; };
+		9412C46A1AEAA4A400490349 /* maurentania_caesarienis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4421AEAA4A400490349 /* maurentania_caesarienis.plist */; };
+		9412C46B1AEAA4A400490349 /* maurentania_caesarienis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4421AEAA4A400490349 /* maurentania_caesarienis.plist */; };
+		9412C46C1AEAA4A400490349 /* mauretania_tingitana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4431AEAA4A400490349 /* mauretania_tingitana.plist */; };
+		9412C46D1AEAA4A400490349 /* mauretania_tingitana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4431AEAA4A400490349 /* mauretania_tingitana.plist */; };
+		9412C46E1AEAA4A400490349 /* moesia_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4441AEAA4A400490349 /* moesia_inferior.plist */; };
+		9412C46F1AEAA4A400490349 /* moesia_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4441AEAA4A400490349 /* moesia_inferior.plist */; };
+		9412C4701AEAA4A400490349 /* moesia_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4451AEAA4A400490349 /* moesia_superior.plist */; };
+		9412C4711AEAA4A400490349 /* moesia_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4451AEAA4A400490349 /* moesia_superior.plist */; };
+		9412C4721AEAA4A400490349 /* narbonensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4461AEAA4A400490349 /* narbonensis.plist */; };
+		9412C4731AEAA4A400490349 /* narbonensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4461AEAA4A400490349 /* narbonensis.plist */; };
+		9412C4741AEAA4A400490349 /* noricum.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4471AEAA4A400490349 /* noricum.plist */; };
+		9412C4751AEAA4A400490349 /* noricum.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4471AEAA4A400490349 /* noricum.plist */; };
+		9412C4761AEAA4A400490349 /* pannonia_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4481AEAA4A400490349 /* pannonia_inferior.plist */; };
+		9412C4771AEAA4A400490349 /* pannonia_inferior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4481AEAA4A400490349 /* pannonia_inferior.plist */; };
+		9412C4781AEAA4A400490349 /* pannonia_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4491AEAA4A400490349 /* pannonia_superior.plist */; };
+		9412C4791AEAA4A400490349 /* pannonia_superior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4491AEAA4A400490349 /* pannonia_superior.plist */; };
+		9412C47A1AEAA4A400490349 /* province_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44A1AEAA4A400490349 /* province_list.plist */; };
+		9412C47B1AEAA4A400490349 /* province_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44A1AEAA4A400490349 /* province_list.plist */; };
+		9412C47C1AEAA4A400490349 /* raetia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44B1AEAA4A400490349 /* raetia.plist */; };
+		9412C47D1AEAA4A400490349 /* raetia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44B1AEAA4A400490349 /* raetia.plist */; };
+		9412C47E1AEAA4A400490349 /* tarraconensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44C1AEAA4A400490349 /* tarraconensis.plist */; };
+		9412C47F1AEAA4A400490349 /* tarraconensis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44C1AEAA4A400490349 /* tarraconensis.plist */; };
+		9412C4801AEAA4A400490349 /* thracia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44D1AEAA4A400490349 /* thracia.plist */; };
+		9412C4811AEAA4A400490349 /* thracia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C44D1AEAA4A400490349 /* thracia.plist */; };
 		94529E191AE7660400D31915 /* RomanProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94529E181AE7660400D31915 /* RomanProvinceModel.swift */; };
 		B886E92F1AE7A2FA000FF4A3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886E92E1AE7A2FA000FF4A3 /* InfoViewController.swift */; };
 		E3D876371AE0DE4700CF2A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D876361AE0DE4700CF2A3A /* AppDelegate.swift */; };
@@ -42,6 +96,33 @@
 
 /* Begin PBXFileReference section */
 		291AEF9B1AE1463300418BFA /* missing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing.png; sourceTree = "<group>"; };
+		9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregateProvinceModel.swift; sourceTree = "<group>"; };
+		9412C4341AEAA4A400490349 /* alpes_cottidae.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = alpes_cottidae.plist; path = ../../ios_dataset/alpes_cottidae.plist; sourceTree = "<group>"; };
+		9412C4351AEAA4A400490349 /* alpes_maritimae.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = alpes_maritimae.plist; path = ../../ios_dataset/alpes_maritimae.plist; sourceTree = "<group>"; };
+		9412C4361AEAA4A400490349 /* alpes_poeniae .plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "alpes_poeniae .plist"; path = "../../ios_dataset/alpes_poeniae .plist"; sourceTree = "<group>"; };
+		9412C4371AEAA4A400490349 /* aquitania.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = aquitania.plist; path = ../../ios_dataset/aquitania.plist; sourceTree = "<group>"; };
+		9412C4381AEAA4A400490349 /* baetica.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = baetica.plist; path = ../../ios_dataset/baetica.plist; sourceTree = "<group>"; };
+		9412C4391AEAA4A400490349 /* belgica.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = belgica.plist; path = ../../ios_dataset/belgica.plist; sourceTree = "<group>"; };
+		9412C43A1AEAA4A400490349 /* Britannica.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Britannica.plist; path = ../../ios_dataset/Britannica.plist; sourceTree = "<group>"; };
+		9412C43B1AEAA4A400490349 /* dacia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = dacia.plist; path = ../../ios_dataset/dacia.plist; sourceTree = "<group>"; };
+		9412C43C1AEAA4A400490349 /* dalmatia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = dalmatia.plist; path = ../../ios_dataset/dalmatia.plist; sourceTree = "<group>"; };
+		9412C43D1AEAA4A400490349 /* germania_inferior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = germania_inferior.plist; path = ../../ios_dataset/germania_inferior.plist; sourceTree = "<group>"; };
+		9412C43E1AEAA4A400490349 /* germania_superior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = germania_superior.plist; path = ../../ios_dataset/germania_superior.plist; sourceTree = "<group>"; };
+		9412C43F1AEAA4A400490349 /* italia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = italia.plist; path = ../../ios_dataset/italia.plist; sourceTree = "<group>"; };
+		9412C4401AEAA4A400490349 /* lugudunensis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = lugudunensis.plist; path = ../../ios_dataset/lugudunensis.plist; sourceTree = "<group>"; };
+		9412C4411AEAA4A400490349 /* lusitania.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = lusitania.plist; path = ../../ios_dataset/lusitania.plist; sourceTree = "<group>"; };
+		9412C4421AEAA4A400490349 /* maurentania_caesarienis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = maurentania_caesarienis.plist; path = ../../ios_dataset/maurentania_caesarienis.plist; sourceTree = "<group>"; };
+		9412C4431AEAA4A400490349 /* mauretania_tingitana.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = mauretania_tingitana.plist; path = ../../ios_dataset/mauretania_tingitana.plist; sourceTree = "<group>"; };
+		9412C4441AEAA4A400490349 /* moesia_inferior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = moesia_inferior.plist; path = ../../ios_dataset/moesia_inferior.plist; sourceTree = "<group>"; };
+		9412C4451AEAA4A400490349 /* moesia_superior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = moesia_superior.plist; path = ../../ios_dataset/moesia_superior.plist; sourceTree = "<group>"; };
+		9412C4461AEAA4A400490349 /* narbonensis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = narbonensis.plist; path = ../../ios_dataset/narbonensis.plist; sourceTree = "<group>"; };
+		9412C4471AEAA4A400490349 /* noricum.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = noricum.plist; path = ../../ios_dataset/noricum.plist; sourceTree = "<group>"; };
+		9412C4481AEAA4A400490349 /* pannonia_inferior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = pannonia_inferior.plist; path = ../../ios_dataset/pannonia_inferior.plist; sourceTree = "<group>"; };
+		9412C4491AEAA4A400490349 /* pannonia_superior.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = pannonia_superior.plist; path = ../../ios_dataset/pannonia_superior.plist; sourceTree = "<group>"; };
+		9412C44A1AEAA4A400490349 /* province_list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = province_list.plist; path = ../../ios_dataset/province_list.plist; sourceTree = "<group>"; };
+		9412C44B1AEAA4A400490349 /* raetia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = raetia.plist; path = ../../ios_dataset/raetia.plist; sourceTree = "<group>"; };
+		9412C44C1AEAA4A400490349 /* tarraconensis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = tarraconensis.plist; path = ../../ios_dataset/tarraconensis.plist; sourceTree = "<group>"; };
+		9412C44D1AEAA4A400490349 /* thracia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = thracia.plist; path = ../../ios_dataset/thracia.plist; sourceTree = "<group>"; };
 		94529E181AE7660400D31915 /* RomanProvinceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanProvinceModel.swift; sourceTree = "<group>"; };
 		B886E92E1AE7A2FA000FF4A3 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E3D876311AE0DE4700CF2A3A /* tom-teget-final-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tom-teget-final-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +173,39 @@
 			name = "Map Image code";
 			sourceTree = "<group>";
 		};
+		9412C4331AEAA47C00490349 /* Provincial Data */ = {
+			isa = PBXGroup;
+			children = (
+				9412C4341AEAA4A400490349 /* alpes_cottidae.plist */,
+				9412C4351AEAA4A400490349 /* alpes_maritimae.plist */,
+				9412C4361AEAA4A400490349 /* alpes_poeniae .plist */,
+				9412C4371AEAA4A400490349 /* aquitania.plist */,
+				9412C4381AEAA4A400490349 /* baetica.plist */,
+				9412C4391AEAA4A400490349 /* belgica.plist */,
+				9412C43A1AEAA4A400490349 /* Britannica.plist */,
+				9412C43B1AEAA4A400490349 /* dacia.plist */,
+				9412C43C1AEAA4A400490349 /* dalmatia.plist */,
+				9412C43D1AEAA4A400490349 /* germania_inferior.plist */,
+				9412C43E1AEAA4A400490349 /* germania_superior.plist */,
+				9412C43F1AEAA4A400490349 /* italia.plist */,
+				9412C4401AEAA4A400490349 /* lugudunensis.plist */,
+				9412C4411AEAA4A400490349 /* lusitania.plist */,
+				9412C4421AEAA4A400490349 /* maurentania_caesarienis.plist */,
+				9412C4431AEAA4A400490349 /* mauretania_tingitana.plist */,
+				9412C4441AEAA4A400490349 /* moesia_inferior.plist */,
+				9412C4451AEAA4A400490349 /* moesia_superior.plist */,
+				9412C4461AEAA4A400490349 /* narbonensis.plist */,
+				9412C4471AEAA4A400490349 /* noricum.plist */,
+				9412C4481AEAA4A400490349 /* pannonia_inferior.plist */,
+				9412C4491AEAA4A400490349 /* pannonia_superior.plist */,
+				9412C44A1AEAA4A400490349 /* province_list.plist */,
+				9412C44B1AEAA4A400490349 /* raetia.plist */,
+				9412C44C1AEAA4A400490349 /* tarraconensis.plist */,
+				9412C44D1AEAA4A400490349 /* thracia.plist */,
+			);
+			name = "Provincial Data";
+			sourceTree = "<group>";
+		};
 		E3D876281AE0DE4600CF2A3A = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +239,8 @@
 				E3D876341AE0DE4700CF2A3A /* Supporting Files */,
 				9412C42F1AEAA1EA00490349 /* Map Image code */,
 				94529E181AE7660400D31915 /* RomanProvinceModel.swift */,
+				9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */,
+				9412C4331AEAA47C00490349 /* Provincial Data */,
 			);
 			path = "tom-teget-final-project";
 			sourceTree = "<group>";
@@ -244,12 +360,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9412C47C1AEAA4A400490349 /* raetia.plist in Resources */,
 				291AEF9C1AE1463300418BFA /* missing.png in Resources */,
 				E3D8763F1AE0DE4700CF2A3A /* Main.storyboard in Resources */,
+				9412C4801AEAA4A400490349 /* thracia.plist in Resources */,
+				9412C4641AEAA4A400490349 /* italia.plist in Resources */,
+				9412C47A1AEAA4A400490349 /* province_list.plist in Resources */,
+				9412C46E1AEAA4A400490349 /* moesia_inferior.plist in Resources */,
+				9412C47E1AEAA4A400490349 /* tarraconensis.plist in Resources */,
+				9412C4621AEAA4A400490349 /* germania_superior.plist in Resources */,
+				9412C4601AEAA4A400490349 /* germania_inferior.plist in Resources */,
 				E3D876441AE0DE4700CF2A3A /* LaunchScreen.xib in Resources */,
+				9412C4721AEAA4A400490349 /* narbonensis.plist in Resources */,
+				9412C46A1AEAA4A400490349 /* maurentania_caesarienis.plist in Resources */,
+				9412C4521AEAA4A400490349 /* alpes_poeniae .plist in Resources */,
+				9412C4681AEAA4A400490349 /* lusitania.plist in Resources */,
+				9412C44E1AEAA4A400490349 /* alpes_cottidae.plist in Resources */,
+				9412C4501AEAA4A400490349 /* alpes_maritimae.plist in Resources */,
+				9412C45E1AEAA4A400490349 /* dalmatia.plist in Resources */,
+				9412C4701AEAA4A400490349 /* moesia_superior.plist in Resources */,
+				9412C4561AEAA4A400490349 /* baetica.plist in Resources */,
+				9412C4741AEAA4A400490349 /* noricum.plist in Resources */,
 				E3D8765F1AE1037700CF2A3A /* baseRomanMap.plist in Resources */,
+				9412C4761AEAA4A400490349 /* pannonia_inferior.plist in Resources */,
+				9412C45A1AEAA4A400490349 /* Britannica.plist in Resources */,
 				E3D8766C1AE1247400CF2A3A /* roman_map_117AD.png in Resources */,
+				9412C4541AEAA4A400490349 /* aquitania.plist in Resources */,
+				9412C45C1AEAA4A400490349 /* dacia.plist in Resources */,
+				9412C4581AEAA4A400490349 /* belgica.plist in Resources */,
 				E3D876411AE0DE4700CF2A3A /* Images.xcassets in Resources */,
+				9412C4781AEAA4A400490349 /* pannonia_superior.plist in Resources */,
+				9412C4661AEAA4A400490349 /* lugudunensis.plist in Resources */,
+				9412C46C1AEAA4A400490349 /* mauretania_tingitana.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +399,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9412C46F1AEAA4A400490349 /* moesia_inferior.plist in Resources */,
+				9412C4671AEAA4A400490349 /* lugudunensis.plist in Resources */,
+				9412C4511AEAA4A400490349 /* alpes_maritimae.plist in Resources */,
+				9412C45B1AEAA4A400490349 /* Britannica.plist in Resources */,
+				9412C4691AEAA4A400490349 /* lusitania.plist in Resources */,
+				9412C4791AEAA4A400490349 /* pannonia_superior.plist in Resources */,
+				9412C4711AEAA4A400490349 /* moesia_superior.plist in Resources */,
+				9412C4531AEAA4A400490349 /* alpes_poeniae .plist in Resources */,
+				9412C4631AEAA4A400490349 /* germania_superior.plist in Resources */,
+				9412C4651AEAA4A400490349 /* italia.plist in Resources */,
+				9412C47F1AEAA4A400490349 /* tarraconensis.plist in Resources */,
+				9412C46D1AEAA4A400490349 /* mauretania_tingitana.plist in Resources */,
+				9412C47B1AEAA4A400490349 /* province_list.plist in Resources */,
+				9412C44F1AEAA4A400490349 /* alpes_cottidae.plist in Resources */,
 				E3D876601AE1037700CF2A3A /* baseRomanMap.plist in Resources */,
+				9412C4811AEAA4A400490349 /* thracia.plist in Resources */,
+				9412C4731AEAA4A400490349 /* narbonensis.plist in Resources */,
+				9412C4551AEAA4A400490349 /* aquitania.plist in Resources */,
 				E3D8766D1AE1247400CF2A3A /* roman_map_117AD.png in Resources */,
+				9412C45F1AEAA4A400490349 /* dalmatia.plist in Resources */,
+				9412C4591AEAA4A400490349 /* belgica.plist in Resources */,
+				9412C4571AEAA4A400490349 /* baetica.plist in Resources */,
+				9412C4611AEAA4A400490349 /* germania_inferior.plist in Resources */,
+				9412C4771AEAA4A400490349 /* pannonia_inferior.plist in Resources */,
+				9412C47D1AEAA4A400490349 /* raetia.plist in Resources */,
+				9412C46B1AEAA4A400490349 /* maurentania_caesarienis.plist in Resources */,
+				9412C4751AEAA4A400490349 /* noricum.plist in Resources */,
+				9412C45D1AEAA4A400490349 /* dacia.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +441,7 @@
 				E3D876371AE0DE4700CF2A3A /* AppDelegate.swift in Sources */,
 				E3D8765C1AE0E25D00CF2A3A /* RomanMapModel.swift in Sources */,
 				E3D876661AE11B0500CF2A3A /* RomanMapOverlay.swift in Sources */,
+				9412C4311AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */,
 				E3D876691AE11CD900CF2A3A /* RomanMapOverlayView.swift in Sources */,
 				94529E191AE7660400D31915 /* RomanProvinceModel.swift in Sources */,
 				B886E92F1AE7A2FA000FF4A3 /* InfoViewController.swift in Sources */,
@@ -287,6 +456,7 @@
 				E3D8766A1AE11CD900CF2A3A /* RomanMapOverlayView.swift in Sources */,
 				E3D876671AE11B0500CF2A3A /* RomanMapOverlay.swift in Sources */,
 				E3D8765D1AE0E25D00CF2A3A /* RomanMapModel.swift in Sources */,
+				9412C4321AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */,
 				E3D876501AE0DE4700CF2A3A /* tom_teget_final_projectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

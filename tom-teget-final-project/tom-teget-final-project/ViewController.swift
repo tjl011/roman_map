@@ -9,6 +9,8 @@
 import UIKit
 import MapKit
 
+
+/// This class is the 'main' view controller of the project
 class ViewController: UIViewController {
 
     /// Map view
@@ -16,6 +18,9 @@ class ViewController: UIViewController {
     
     /// Base Roman Empire model object
     var baseRomanMap = RomanMapModel(mapInfoName: "baseRomanMap")
+    
+    /// This object encapsulates the data of each province
+    var aggregateProvincialData = AggregateProvinceModel()
 
     
     override func viewDidLoad() {
@@ -43,6 +48,25 @@ class ViewController: UIViewController {
         println("adding overlay")
         let overlay = RomanMapOverlay(romeMap: baseRomanMap)
         baseMapView.addOverlay(overlay)
+    }
+    
+    /**
+        This helper method generates a polygonal overlay of a province whose
+        identifier is passed into this function as input
+        
+        :param: provinceIdentifier - Province key i.e. 'dacia' or 'moesia_superior'
+        :returns: true if the province was successfully added otherwise false
+    */
+    func addProvincialPolygonOverlay(provinceIdentifier: String) -> Bool {
+        let provinceData = aggregateProvincialData.provincialModelDictionary[provinceIdentifier]
+        if (provinceData == nil) {
+            println("WARNING: \(provinceIdentifier) is not a valid key in the provincialModelDictionary")
+            return false
+        }
+        else {
+            return true
+           // let provincePolygon = MKPolygon(points: &(provinceData!.provinceBoundary), provinceData!.provinceBoundary.count)
+        }
     }
     
 
@@ -78,8 +102,9 @@ extension ViewController: MKMapViewDelegate {
             println("province delegate adding overlay")
            
             var provinceRenderer = MKPolygonRenderer(overlay: overlay)
-            //provinceRenderer!.fillColor = UIColor.greenColor()
-            provinceRenderer!.strokeColor = UIColor.greenColor()
+            //provinceRenderer!.fillColor = provinceRenderer as
+            provinceRenderer!.strokeColor = UIColor.blueColor()
+            // TODO - add color to polygon overlay
             provinceRenderer!.lineWidth = 1.5
             
             return provinceRenderer
