@@ -26,6 +26,8 @@ class RomanProvinceModel {
     
     // TODO: Add class variables regarding Province information
     
+    // TODO: Add overlay color and alpha (transparcey)
+    
     
     /**
         Constructor for RomanProvinceModel. This object is a container for the provinces, used to 
@@ -46,8 +48,8 @@ class RomanProvinceModel {
         let boundaryPoints = provinceProperties!["coordinates"] as! NSArray
         for boundaryPoint in boundaryPoints {
             let point = CGPointFromString(boundaryPoint as! String)
-            let coordinate2D = CLLocationCoordinate2DMake(CLLocationDegrees(point.y),
-                CLLocationDegrees(point.x))
+            let coordinate2D = CLLocationCoordinate2DMake(CLLocationDegrees(point.x),
+                CLLocationDegrees(point.y))
                 
             self.provinceBoundary.append(coordinate2D)
         }

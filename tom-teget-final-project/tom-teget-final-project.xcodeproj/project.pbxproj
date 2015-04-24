@@ -82,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9412C42F1AEAA1EA00490349 /* Map Image code */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */,
+				E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */,
+				E3D876681AE11CD900CF2A3A /* RomanMapOverlayView.swift */,
+			);
+			name = "Map Image code";
+			sourceTree = "<group>";
+		};
 		E3D876281AE0DE4600CF2A3A = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +123,7 @@
 				E3D876421AE0DE4700CF2A3A /* LaunchScreen.xib */,
 				E3D876381AE0DE4700CF2A3A /* tom_teget_final_project.xcdatamodeld */,
 				E3D876341AE0DE4700CF2A3A /* Supporting Files */,
-				E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */,
-				E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */,
-				E3D876681AE11CD900CF2A3A /* RomanMapOverlayView.swift */,
+				9412C42F1AEAA1EA00490349 /* Map Image code */,
 				94529E181AE7660400D31915 /* RomanProvinceModel.swift */,
 			);
 			path = "tom-teget-final-project";
