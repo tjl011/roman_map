@@ -14,6 +14,14 @@ from bs4 import BeautifulSoup
 _FILE_EXT = ".kml"
 _FILE_EXT_LEN = len(_FILE_EXT)
 
+def __interpretKMLColor(colorStr):
+	""" This helper function takes as input the <color>...</color>
+		line as input and converts the hexadecimal representation of
+		alpha, blue, green, red (aabbggrr) into floating point numbers
+		between 0.0 and 1.0, (which is one way which UIColor is instantiated.
+	"""
+	pass
+
 class KMLProvinceParser:
 	
 	def __init__(self, filePath):
@@ -45,14 +53,21 @@ class KMLProvinceParser:
 			sys.exit(-1)
 		self.name = self.name[:-_FILE_EXT_LEN]
 	
+	# TODO - ADD COLOR GRABBER
+	
+	
 	def __populateCoordList(self):
+		""" Helper method used to populate the coordList with a list of
+			tuples in the form (lat, long) as floats.
+		"""
 		coordGenerator = [s for s in self.__kmlSoup.Placemark.coordinates.stripped_strings]
 		self.__coordList = coordGenerator[0].split()
 		
-		# generates 3-tuple: (latitude,longitude,0)
+		# generates 3-tuple: (longitude, latitude,0)
 		for i in range(len(self.__coordList)):
 			slist = [s for s in self.__coordList[i].split(',')]
-			self.__coordList[i] = (float(slist[0]), float(slist[1]))
+			# line below switched due to KML format, want (lat, long)
+			self.__coordList[i] = (float(slist[1]), float(slist[0]))
 	
 	def getCoordList(self):
 		""" Getter method for object attribute __coordList.
