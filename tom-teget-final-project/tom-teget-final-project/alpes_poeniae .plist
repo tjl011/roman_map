@@ -1,0 +1,31 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Alpes Poeniae </string>
+	<key>coordinates</key>
+	<array>
+		<string>{5.122305,46.442147}</string>
+		<string>{5.128530,46.251092}</string>
+		<string>{5.527673,45.804634}</string>
+		<string>{5.566557,45.453229}</string>
+		<string>{5.579951,45.405717}</string>
+		<string>{5.958089,45.350196}</string>
+		<string>{6.081207,45.340760}</string>
+		<string>{6.280213,45.507750}</string>
+		<string>{6.222345,45.653706}</string>
+		<string>{6.274111,45.828811}</string>
+		<string>{6.266304,45.868843}</string>
+		<string>{6.394004,46.390554}</string>
+		<string>{6.728254,46.648086}</string>
+		<string>{6.562984,46.773029}</string>
+		<string>{6.548299,46.788053}</string>
+		<string>{6.181510,46.598151}</string>
+		<string>{5.986390,46.507237}</string>
+		<string>{5.877633,46.459318}</string>
+		<string>{5.277084,46.462499}</string>
+		<string>{5.164349,46.468160}</string>
+		<string>{5.122305,46.442147}</string>
+	</array>
+</dict>
+</plist>

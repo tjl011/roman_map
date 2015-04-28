@@ -27,6 +27,7 @@ class RomanProvinceModel {
     // TODO: Add class variables regarding Province information
     
     // TODO: Add overlay color and alpha (transparcey)
+    //var overlayColor: UIColor
     
     
     /**
@@ -34,9 +35,11 @@ class RomanProvinceModel {
         build MKPolygon overlay and provincial overlay, among other things.
             
         :param: provinceInfoFileName - name of resource file that contains data for a given province
+        :param: overlayColor - TODO
     */
     init(provinceInfoFileName: String) {
         self.provinceInfoFileName = provinceInfoFileName
+      //  self.overlayColor = overlayColor
         
         let resourceFilePath = NSBundle.mainBundle().pathForResource(self.provinceInfoFileName!, ofType: "plist")
         let provinceProperties = NSDictionary(contentsOfFile: resourceFilePath!)

@@ -1,0 +1,38 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Germania Inferior</string>
+	<key>coordinates</key>
+	<array>
+		<string>{7.251136,50.511507}</string>
+		<string>{7.041579,50.694250}</string>
+		<string>{7.082956,50.970666}</string>
+		<string>{6.814519,51.147481}</string>
+		<string>{6.824294,51.152719}</string>
+		<string>{6.794173,51.159542}</string>
+		<string>{6.787580,51.174878}</string>
+		<string>{6.761583,51.234032}</string>
+		<string>{6.772050,51.345892}</string>
+		<string>{6.780626,51.430652}</string>
+		<string>{6.734962,51.495656}</string>
+		<string>{6.583117,51.596442}</string>
+		<string>{6.594696,51.670343}</string>
+		<string>{6.222974,51.827408}</string>
+		<string>{5.688047,52.142475}</string>
+		<string>{5.436555,52.032793}</string>
+		<string>{4.051547,52.024722}</string>
+		<string>{3.392809,51.451071}</string>
+		<string>{4.208028,51.339605}</string>
+		<string>{4.141050,50.718152}</string>
+		<string>{4.176935,50.615721}</string>
+		<string>{4.414125,50.212746}</string>
+		<string>{4.791072,50.206226}</string>
+		<string>{5.160231,50.031197}</string>
+		<string>{5.552042,50.059114}</string>
+		<string>{7.189392,50.126001}</string>
+		<string>{7.495337,50.429407}</string>
+		<string>{7.251136,50.511507}</string>
+	</array>
+</dict>
+</plist>

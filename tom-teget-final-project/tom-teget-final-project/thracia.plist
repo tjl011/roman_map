@@ -1,0 +1,36 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Thracia</string>
+	<key>coordinates</key>
+	<array>
+		<string>{23.396419,41.677197}</string>
+		<string>{23.420741,41.654628}</string>
+		<string>{23.503337,41.595562}</string>
+		<string>{23.551790,41.550404}</string>
+		<string>{23.587608,41.520519}</string>
+		<string>{23.633138,41.499269}</string>
+		<string>{23.667028,41.485316}</string>
+		<string>{23.713320,41.456100}</string>
+		<string>{23.760448,41.418907}</string>
+		<string>{23.785313,41.388361}</string>
+		<string>{23.811033,41.349848}</string>
+		<string>{23.843865,41.343836}</string>
+		<string>{25.104591,41.334944}</string>
+		<string>{26.388074,40.979294}</string>
+		<string>{27.391117,40.827719}</string>
+		<string>{27.313900,40.731401}</string>
+		<string>{27.274484,40.698835}</string>
+		<string>{28.790248,41.050827}</string>
+		<string>{27.769932,42.371812}</string>
+		<string>{27.457030,42.676088}</string>
+		<string>{24.616832,42.525007}</string>
+		<string>{24.401601,42.544647}</string>
+		<string>{24.228584,42.566326}</string>
+		<string>{24.058967,42.556489}</string>
+		<string>{23.885730,42.577657}</string>
+		<string>{23.396419,41.677197}</string>
+	</array>
+</dict>
+</plist>
