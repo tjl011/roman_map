@@ -17,7 +17,7 @@ let RGB_ARRAY = [UIColor.redColor(), UIColor.greenColor(), UIColor.blueColor()]
 class AggregateProvinceModel {
     
     /// Dictionary of provincial plist file names to their associated model
-    var provincialModelDictionary: [String: RomanProvinceModel?]
+    var provincialModelDictionary: [String: AnyObject?]
     
     /// Official Title of Map
     var officialMapTitle: String?
@@ -35,7 +35,7 @@ class AggregateProvinceModel {
         self.officialMapTitle = provincialResourceDictionary!["name"] as? String
         
         // Populate dictionary by iterating through provinces array in plist file
-        self.provincialModelDictionary = [String: RomanProvinceModel]()
+        self.provincialModelDictionary = [String: AnyObject?]()
         for resourceFile in provincialResourceDictionary!["provinces"] as! NSArray {
             let provincialResource = NSBundle.mainBundle().pathForResource(resourceFile as? String, ofType: "plist")
             if (provincialResource == nil) {
@@ -44,7 +44,8 @@ class AggregateProvinceModel {
             }
             else {
                 println("DEBUG: \(resourceFile) WAS FOUND")
-                self.provincialModelDictionary[resourceFile as! String] = RomanProvinceModel(provinceInfoFileName: resourceFile as! String)
+                var provincialModel: RomanProvinceModel = RomanProvinceModel(provinceInfoFileName: resourceFile as! String)
+                self.provincialModelDictionary[resourceFile as! String] = provincialModel
             }
         }
         

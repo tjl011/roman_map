@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		291AEF9C1AE1463300418BFA /* missing.png in Resources */ = {isa = PBXBuildFile; fileRef = 291AEF9B1AE1463300418BFA /* missing.png */; };
+		9402CDF11AF0434B0098BD31 /* RomanProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94529E181AE7660400D31915 /* RomanProvinceModel.swift */; };
 		9412C4311AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */; };
 		9412C4321AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412C4301AEAA3B400490349 /* AggregateProvinceModel.swift */; };
 		9412C44E1AEAA4A400490349 /* alpes_cottidae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9412C4341AEAA4A400490349 /* alpes_cottidae.plist */; };
@@ -74,8 +75,6 @@
 		E3D8765A1AE0DE8700CF2A3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D876591AE0DE8700CF2A3A /* MapKit.framework */; };
 		E3D8765C1AE0E25D00CF2A3A /* RomanMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */; };
 		E3D8765D1AE0E25D00CF2A3A /* RomanMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */; };
-		E3D8765F1AE1037700CF2A3A /* baseRomanMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D8765E1AE1037700CF2A3A /* baseRomanMap.plist */; };
-		E3D876601AE1037700CF2A3A /* baseRomanMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D8765E1AE1037700CF2A3A /* baseRomanMap.plist */; };
 		E3D876661AE11B0500CF2A3A /* RomanMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */; };
 		E3D876671AE11B0500CF2A3A /* RomanMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */; };
 		E3D876691AE11CD900CF2A3A /* RomanMapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D876681AE11CD900CF2A3A /* RomanMapOverlayView.swift */; };
@@ -138,7 +137,6 @@
 		E3D8764F1AE0DE4700CF2A3A /* tom_teget_final_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tom_teget_final_projectTests.swift; sourceTree = "<group>"; };
 		E3D876591AE0DE8700CF2A3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E3D8765B1AE0E25D00CF2A3A /* RomanMapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanMapModel.swift; sourceTree = "<group>"; };
-		E3D8765E1AE1037700CF2A3A /* baseRomanMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = baseRomanMap.plist; sourceTree = "<group>"; };
 		E3D876651AE11B0500CF2A3A /* RomanMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanMapOverlay.swift; sourceTree = "<group>"; };
 		E3D876681AE11CD900CF2A3A /* RomanMapOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanMapOverlayView.swift; sourceTree = "<group>"; };
 		E3D8766B1AE1247400CF2A3A /* roman_map_117AD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roman_map_117AD.png; sourceTree = "<group>"; };
@@ -275,7 +273,6 @@
 			children = (
 				291AEF9B1AE1463300418BFA /* missing.png */,
 				E3D8766B1AE1247400CF2A3A /* roman_map_117AD.png */,
-				E3D8765E1AE1037700CF2A3A /* baseRomanMap.plist */,
 			);
 			name = "Roman Map Data";
 			sourceTree = "<group>";
@@ -381,7 +378,6 @@
 				9412C4701AEAA4A400490349 /* moesia_superior.plist in Resources */,
 				9412C4561AEAA4A400490349 /* baetica.plist in Resources */,
 				9412C4741AEAA4A400490349 /* noricum.plist in Resources */,
-				E3D8765F1AE1037700CF2A3A /* baseRomanMap.plist in Resources */,
 				9412C4761AEAA4A400490349 /* pannonia_inferior.plist in Resources */,
 				9412C45A1AEAA4A400490349 /* Britannica.plist in Resources */,
 				E3D8766C1AE1247400CF2A3A /* roman_map_117AD.png in Resources */,
@@ -413,7 +409,6 @@
 				9412C46D1AEAA4A400490349 /* mauretania_tingitana.plist in Resources */,
 				9412C47B1AEAA4A400490349 /* province_list.plist in Resources */,
 				9412C44F1AEAA4A400490349 /* alpes_cottidae.plist in Resources */,
-				E3D876601AE1037700CF2A3A /* baseRomanMap.plist in Resources */,
 				9412C4811AEAA4A400490349 /* thracia.plist in Resources */,
 				9412C4731AEAA4A400490349 /* narbonensis.plist in Resources */,
 				9412C4551AEAA4A400490349 /* aquitania.plist in Resources */,
@@ -454,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D8766A1AE11CD900CF2A3A /* RomanMapOverlayView.swift in Sources */,
+				9402CDF11AF0434B0098BD31 /* RomanProvinceModel.swift in Sources */,
 				E3D876671AE11B0500CF2A3A /* RomanMapOverlay.swift in Sources */,
 				E3D8765D1AE0E25D00CF2A3A /* RomanMapModel.swift in Sources */,
 				9412C4321AEAA3B400490349 /* AggregateProvinceModel.swift in Sources */,
@@ -574,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "tom-teget-final-project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "tom-teget-final-project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

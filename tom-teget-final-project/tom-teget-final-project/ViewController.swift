@@ -32,7 +32,13 @@ class ViewController: UIViewController {
         println("Base map loaded")
         
         baseMapView.delegate = self
-        addRomanMapOverlay()
+        
+        for provinceName in aggregateProvincialData.provincialModelDictionary.keys {
+            println("Adding province \(provinceName)")
+            addProvincialPolygonOverlay(provinceName)
+        }
+        
+        //addRomanMapOverlay()
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,14 +64,15 @@ class ViewController: UIViewController {
         :returns: true if the province was successfully added otherwise false
     */
     func addProvincialPolygonOverlay(provinceIdentifier: String) -> Bool {
-        let provinceData = aggregateProvincialData.provincialModelDictionary[provinceIdentifier]
+        let provinceData = aggregateProvincialData.provincialModelDictionary[provinceIdentifier] as! RomanProvinceModel?
         if (provinceData == nil) {
             println("WARNING: \(provinceIdentifier) is not a valid key in the provincialModelDictionary")
             return false
         }
         else {
+            let provinceOverlay = MKPolygon(coordinates: &(provinceData!.provinceBoundary), count: provinceData!.provinceBoundary.count)
+            baseMapView.addOverlay(provinceOverlay)
             return true
-           // let provincePolygon = MKPolygon(points: &(provinceData!.provinceBoundary), provinceData!.provinceBoundary.count)
         }
     }
     
