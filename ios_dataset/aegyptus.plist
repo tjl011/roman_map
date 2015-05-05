@@ -1,0 +1,50 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Aegyptus</string>
+	<key>coordinates</key>
+	<array>
+		<string>{31.132525,32.662976}</string>
+		<string>{31.367362,32.206275}</string>
+		<string>{31.599744,31.894944}</string>
+		<string>{31.501622,31.553740}</string>
+		<string>{31.710089,31.200418}</string>
+		<string>{31.612687,30.724396}</string>
+		<string>{31.422769,30.005602}</string>
+		<string>{30.894420,29.095314}</string>
+		<string>{31.166544,28.554178}</string>
+		<string>{31.182433,27.988003}</string>
+		<string>{31.301785,27.926587}</string>
+		<string>{31.266019,27.566040}</string>
+		<string>{31.413916,27.449799}</string>
+		<string>{31.490089,27.009665}</string>
+		<string>{30.762681,26.862502}</string>
+		<string>{30.443738,27.090132}</string>
+		<string>{30.203152,27.054893}</string>
+		<string>{30.001723,26.821294}</string>
+		<string>{29.609796,29.418968}</string>
+		<string>{28.580569,29.608142}</string>
+		<string>{27.973538,29.396817}</string>
+		<string>{27.215868,29.575465}</string>
+		<string>{25.963124,30.392998}</string>
+		<string>{24.290278,30.373685}</string>
+		<string>{24.252732,35.262990}</string>
+		<string>{24.366064,35.422124}</string>
+		<string>{24.661492,35.267052}</string>
+		<string>{25.138334,35.022028}</string>
+		<string>{25.527347,34.814482}</string>
+		<string>{26.467345,34.221985}</string>
+		<string>{26.818467,34.140674}</string>
+		<string>{27.334101,33.890673}</string>
+		<string>{27.860449,33.687461}</string>
+		<string>{28.133514,33.444976}</string>
+		<string>{28.595935,32.993915}</string>
+		<string>{29.176518,32.766968}</string>
+		<string>{29.599683,32.445232}</string>
+		<string>{29.845826,32.558404}</string>
+		<string>{31.303061,33.242973}</string>
+		<string>{31.132525,32.662976}</string>
+	</array>
+</dict>
+</plist>

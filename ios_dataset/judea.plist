@@ -1,0 +1,29 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Judea</string>
+	<key>coordinates</key>
+	<array>
+		<string>{31.294493,34.143197}</string>
+		<string>{31.137236,34.330677}</string>
+		<string>{31.051971,34.704246}</string>
+		<string>{31.077839,34.992142}</string>
+		<string>{31.529282,35.632447}</string>
+		<string>{31.730673,35.759689}</string>
+		<string>{32.020943,35.866778}</string>
+		<string>{32.388720,36.000233}</string>
+		<string>{32.804839,36.124987}</string>
+		<string>{33.152626,36.399162}</string>
+		<string>{33.337066,36.490178}</string>
+		<string>{33.180011,35.933386}</string>
+		<string>{32.939614,35.733808}</string>
+		<string>{32.736586,34.931825}</string>
+		<string>{32.199299,34.783821}</string>
+		<string>{31.784236,34.602117}</string>
+		<string>{31.497539,34.384132}</string>
+		<string>{31.404808,34.268440}</string>
+		<string>{31.294493,34.143197}</string>
+	</array>
+</dict>
+</plist>

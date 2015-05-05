@@ -9,26 +9,34 @@
 		<string>noricum</string>
 		<string>Britannica</string>
 		<string>pannonia_superior</string>
+		<string>judea</string>
 		<string>baetica</string>
 		<string>moesia_superior</string>
+		<string>mesopotamia</string>
 		<string>alpes_maritimae</string>
+		<string>arabia</string>
 		<string>moesia_inferior</string>
 		<string>raetia</string>
 		<string>germania_superior</string>
-		<string>dacia_v2</string>
 		<string>belgica</string>
+		<string>asia</string>
+		<string>aegyptus</string>
 		<string>lusitania</string>
 		<string>pannonia_inferior</string>
 		<string>dalmatia</string>
 		<string>dacia</string>
+		<string>armenia</string>
 		<string>thracia</string>
 		<string>italia</string>
 		<string>germania_inferior</string>
-		<string>alpes_poeniae </string>
 		<string>lugudunensis</string>
 		<string>tarraconensis</string>
+		<string>syria</string>
+		<string>alpes_poeniae</string>
 		<string>aquitania</string>
 		<string>mauretania_tingitana</string>
+		<string>bithynia_et_pontus</string>
+		<string>creta_et_cyrene</string>
 		<string>maurentania_caesarienis</string>
 		<string>alpes_cottidae</string>
 	</array>

@@ -1,0 +1,52 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Creta Et Cyrene</string>
+	<key>coordinates</key>
+	<array>
+		<string>{30.342978,18.985195}</string>
+		<string>{29.670584,18.922816}</string>
+		<string>{29.668702,19.141579}</string>
+		<string>{29.756784,19.733584}</string>
+		<string>{29.919699,20.112570}</string>
+		<string>{30.267208,20.676903}</string>
+		<string>{30.800887,20.965364}</string>
+		<string>{30.977858,21.050785}</string>
+		<string>{31.286973,21.944746}</string>
+		<string>{31.311212,22.189450}</string>
+		<string>{30.947688,23.121702}</string>
+		<string>{30.717250,23.778021}</string>
+		<string>{30.485979,24.580192}</string>
+		<string>{30.280713,25.470701}</string>
+		<string>{30.038213,26.725268}</string>
+		<string>{30.213580,26.966185}</string>
+		<string>{30.419537,27.004783}</string>
+		<string>{30.725357,26.787583}</string>
+		<string>{31.491300,26.944014}</string>
+		<string>{31.691126,25.899383}</string>
+		<string>{31.562061,25.274828}</string>
+		<string>{31.968066,25.095866}</string>
+		<string>{32.087300,24.729833}</string>
+		<string>{32.128055,24.077653}</string>
+		<string>{32.279062,23.306589}</string>
+		<string>{32.687270,23.183643}</string>
+		<string>{32.948387,22.312663}</string>
+		<string>{33.008433,21.861875}</string>
+		<string>{32.952084,21.501642}</string>
+		<string>{32.845730,21.227076}</string>
+		<string>{32.744035,20.834941}</string>
+		<string>{32.530743,20.356646}</string>
+		<string>{32.189819,19.987832}</string>
+		<string>{31.882341,19.866784}</string>
+		<string>{31.607511,19.866104}</string>
+		<string>{31.362674,19.942902}</string>
+		<string>{31.219846,20.061401}</string>
+		<string>{31.083800,20.097573}</string>
+		<string>{30.949635,20.038055}</string>
+		<string>{30.558005,19.717361}</string>
+		<string>{30.349222,19.323185}</string>
+		<string>{30.342978,18.985195}</string>
+	</array>
+</dict>
+</plist>

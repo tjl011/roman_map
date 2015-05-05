@@ -1,0 +1,43 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Armenia</string>
+	<key>coordinates</key>
+	<array>
+		<string>{36.744684,44.756229}</string>
+		<string>{38.059098,46.104802}</string>
+		<string>{38.212237,47.387698}</string>
+		<string>{38.705486,48.407337}</string>
+		<string>{38.723061,48.991019}</string>
+		<string>{39.283999,49.501811}</string>
+		<string>{39.567892,49.450386}</string>
+		<string>{39.981562,49.603725}</string>
+		<string>{40.571412,47.393078}</string>
+		<string>{40.829415,46.601644}</string>
+		<string>{41.236271,45.696094}</string>
+		<string>{41.366062,45.280924}</string>
+		<string>{41.752710,43.343393}</string>
+		<string>{41.772462,41.895108}</string>
+		<string>{40.959475,42.026658}</string>
+		<string>{40.551043,42.064393}</string>
+		<string>{40.003789,41.649892}</string>
+		<string>{39.739921,40.946509}</string>
+		<string>{39.167373,40.111871}</string>
+		<string>{39.044583,39.943786}</string>
+		<string>{38.801067,39.832639}</string>
+		<string>{38.653431,40.167046}</string>
+		<string>{38.224476,40.401111}</string>
+		<string>{38.086880,40.208925}</string>
+		<string>{37.848386,40.406637}</string>
+		<string>{37.802094,40.450529}</string>
+		<string>{37.764398,40.822841}</string>
+		<string>{37.695918,41.449052}</string>
+		<string>{37.654499,41.832677}</string>
+		<string>{37.424934,42.431539}</string>
+		<string>{37.152891,43.123242}</string>
+		<string>{37.045880,44.031950}</string>
+		<string>{36.744684,44.756229}</string>
+	</array>
+</dict>
+</plist>

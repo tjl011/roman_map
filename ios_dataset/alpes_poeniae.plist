@@ -2,7 +2,7 @@
 <plist version="1.0">
 <dict>
 	<key>province</key>
-	<string>Alpes Poeniae </string>
+	<string>Alpes Poeniae</string>
 	<key>coordinates</key>
 	<array>
 		<string>{46.442147,5.122305}</string>

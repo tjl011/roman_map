@@ -1,0 +1,49 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Bithynia Et Pontus</string>
+	<key>coordinates</key>
+	<array>
+		<string>{41.207433,29.236812}</string>
+		<string>{41.257782,29.092940}</string>
+		<string>{40.972841,28.979543}</string>
+		<string>{40.750447,29.353527}</string>
+		<string>{40.661711,28.871092}</string>
+		<string>{40.488056,28.784601}</string>
+		<string>{40.414248,28.389095}</string>
+		<string>{40.429664,28.189023}</string>
+		<string>{40.356865,28.324019}</string>
+		<string>{40.213456,28.579497}</string>
+		<string>{40.088127,28.711625}</string>
+		<string>{39.912187,29.789768}</string>
+		<string>{39.689681,30.242298}</string>
+		<string>{39.893757,30.836404}</string>
+		<string>{39.860082,30.956265}</string>
+		<string>{40.086349,31.408458}</string>
+		<string>{40.424174,32.166744}</string>
+		<string>{40.597248,33.154247}</string>
+		<string>{40.679270,34.498381}</string>
+		<string>{40.991370,35.320937}</string>
+		<string>{41.165655,36.475008}</string>
+		<string>{41.680930,36.064639}</string>
+		<string>{41.757223,35.978370}</string>
+		<string>{41.658879,35.486558}</string>
+		<string>{41.826266,35.291791}</string>
+		<string>{42.102430,35.198109}</string>
+		<string>{42.157600,34.995285}</string>
+		<string>{41.991390,34.758060}</string>
+		<string>{42.067871,33.492389}</string>
+		<string>{41.853555,32.480979}</string>
+		<string>{41.545626,31.791690}</string>
+		<string>{41.393608,31.463589}</string>
+		<string>{41.174933,31.279848}</string>
+		<string>{41.097279,31.025359}</string>
+		<string>{41.245959,30.197024}</string>
+		<string>{41.203446,29.916748}</string>
+		<string>{41.233549,29.557914}</string>
+		<string>{41.219092,29.371137}</string>
+		<string>{41.207433,29.236812}</string>
+	</array>
+</dict>
+</plist>

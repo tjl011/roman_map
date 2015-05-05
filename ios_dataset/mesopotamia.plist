@@ -1,0 +1,44 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Mesopotamia</string>
+	<key>coordinates</key>
+	<array>
+		<string>{37.018184,44.041289}</string>
+		<string>{37.123719,43.128273}</string>
+		<string>{37.644348,41.799693}</string>
+		<string>{37.744795,40.920761}</string>
+		<string>{37.786557,40.419801}</string>
+		<string>{38.072924,40.171561}</string>
+		<string>{37.808413,39.914596}</string>
+		<string>{37.364097,39.749311}</string>
+		<string>{37.132097,39.724032}</string>
+		<string>{36.884907,39.743131}</string>
+		<string>{36.789702,39.839837}</string>
+		<string>{36.520535,40.169417}</string>
+		<string>{36.115068,40.296839}</string>
+		<string>{35.296250,39.863556}</string>
+		<string>{34.315332,40.778208}</string>
+		<string>{33.813121,41.437954}</string>
+		<string>{32.839733,42.721416}</string>
+		<string>{32.461160,43.022018}</string>
+		<string>{31.803270,44.075005}</string>
+		<string>{31.550074,44.377463}</string>
+		<string>{31.133543,45.282090}</string>
+		<string>{31.108527,45.652242}</string>
+		<string>{30.836854,46.548180}</string>
+		<string>{30.902661,47.591527}</string>
+		<string>{31.345082,47.599938}</string>
+		<string>{31.653687,47.256174}</string>
+		<string>{31.887265,47.165743}</string>
+		<string>{32.037334,46.881584}</string>
+		<string>{32.384487,46.841498}</string>
+		<string>{32.532584,46.646846}</string>
+		<string>{33.308733,46.376236}</string>
+		<string>{34.599807,46.170792}</string>
+		<string>{36.715285,44.752649}</string>
+		<string>{37.018184,44.041289}</string>
+	</array>
+</dict>
+</plist>

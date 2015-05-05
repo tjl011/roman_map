@@ -1,0 +1,43 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<string>Arabia</string>
+	<key>coordinates</key>
+	<array>
+		<string>{31.279360,33.270574}</string>
+		<string>{29.754921,32.569253}</string>
+		<string>{29.481159,32.660657}</string>
+		<string>{29.122589,32.868983}</string>
+		<string>{28.941511,33.112899}</string>
+		<string>{28.540902,33.148398}</string>
+		<string>{28.401051,33.308151}</string>
+		<string>{28.132559,33.549389}</string>
+		<string>{27.902728,33.786013}</string>
+		<string>{27.713172,34.007901}</string>
+		<string>{27.651311,34.213827}</string>
+		<string>{27.718244,34.339318}</string>
+		<string>{27.908883,34.592489}</string>
+		<string>{28.180906,34.578832}</string>
+		<string>{28.322860,34.534662}</string>
+		<string>{28.650906,34.698919}</string>
+		<string>{29.113770,34.795076}</string>
+		<string>{29.340754,35.037004}</string>
+		<string>{29.679568,35.560057}</string>
+		<string>{30.557068,36.203004}</string>
+		<string>{31.528643,36.608225}</string>
+		<string>{32.437495,36.981903}</string>
+		<string>{32.717867,37.155499}</string>
+		<string>{33.485943,37.269953}</string>
+		<string>{33.420611,36.672597}</string>
+		<string>{32.853107,36.280799}</string>
+		<string>{31.572384,35.794346}</string>
+		<string>{31.003070,35.051254}</string>
+		<string>{30.982519,34.672505}</string>
+		<string>{31.062986,34.314537}</string>
+		<string>{31.299226,34.113832}</string>
+		<string>{31.172352,33.719063}</string>
+		<string>{31.279360,33.270574}</string>
+	</array>
+</dict>
+</plist>
